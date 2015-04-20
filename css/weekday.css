@@ -1,0 +1,32 @@
+#main table {
+    *border-collapse: collapse; /* IE7 and lower */
+    border-spacing: 0;
+    width: 100%;
+    table-layout: fixed;
+}
+
+#main th{
+	-moz-border-radius: 6px 6px 0 0;
+	-webkit-border-radius: 6px 6px 0 0;
+	border-radius: 20px 20px 0 0;
+	background:#222222;
+	color:white;
+	height:50px;
+}
+#main td{
+	padding:5px;
+	font-size:normal;
+	position:center;
+	height:60px;
+	border: 1px #222222 solid;
+}
+
+.hover{
+	background:#B2D8FF;
+}
+
+#main .link{
+	color:blue;
+}
+
+
