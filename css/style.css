@@ -146,11 +146,16 @@ margin-bottom: 2px;
 #navi a:hover {color: #e00; text-decoration: none;}
 
 .menu-text {
+background-color:white;
 line-height: 19px;
 padding: 2px 7px;
 margin: 0 8px 20px 12px;
 }
 
+.menu-text img{
+margin: 10px;
+height:150px;
+}
 .banner {
 text-align: center;
 padding: 5px 0px;
