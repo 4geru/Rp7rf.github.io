@@ -20,6 +20,20 @@
 	height:60px;
 	border: 1px #222222 solid;
 }
+#main td p{
+	padding:3px;
+	font-size:normal;
+	text-align:center;
+	height:60px;
+}
+#main .eng {	background: #ff9999;}
+#main .exp {	background: #8e8eff;}
+#main .imp {	background: #99ff99;}
+#main .nor {	background: #ffffa8;}
+#main .mat {	background: #93c9ff;}
+#main .exs {	background: #d1d1ff;}
+#main .joh {	background: #ffdbb7;}
+
 #main th:first-child{
 	color:red;
 }
@@ -29,9 +43,15 @@
 .hover{
 	background:#B2D8FF;
 }
-
-#main .link{
+#main tr:nth-child(2){
+	background:#ffff7f;
+}
+#main .link {
+	text-align:right;
+}
+#main .link a{
 	color:blue;
+	text-decoration: none;
 }
 
 Rp7rf
