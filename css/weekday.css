@@ -20,7 +20,12 @@
 	height:60px;
 	border: 1px #222222 solid;
 }
-
+#main th:first-child{
+	color:red;
+}
+#main th:last-child{
+	color:blue;
+}
 .hover{
 	background:#B2D8FF;
 }

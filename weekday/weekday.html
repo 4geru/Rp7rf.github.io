@@ -10,13 +10,7 @@
 <title>Rp7rf | week</title>
 
 <script type="text/javascript">
-$(function(){
-	$("#week td").mouseover(function(){
-		$("#week td:nth-child("+($("#week td").index(this)%$("th").size()+1)+")").addClass("hover");
-	}).mouseout(function(){
-		$("#week td:nth-child("+($("#week td").index(this)%$("th").size()+1)+")").removeClass("hover");
-	})
-})
+
 		</script>
 </head>
 <body>
@@ -39,7 +33,7 @@ $(function(){
 <nav>
 <table cellspacing="2">
 <tr>
-<td><a href="../index.html">Home</a></td>
+<td><a href="#" id="btn-home" class="pager" title="home">Home</a></td>
 <td><a href="#" id="btn-week" class="pager" title="week">week</a></td>
 <td><a>未実装</a></td>
 <td><a>未実装</a></td>
@@ -55,14 +49,72 @@ $(function(){
 <div id="main">
 <h2>week plan</h2>
 <table id=week>
-			<tr>
-				<th>Sun</th><th>Mon</th><th>Tue</th><th>Wed</th><th>Thu</th><th>Fri</th><th>Sat</th>
-			</tr>
-			<tr>
-				<td>yukicoder</td><td></td><td></td><td>RiPPro</td><td>yukicoder</td><td>Ri-one</td><td>AtCoder</td>
-			</tr>
-			
-		</table>
+	<tr>
+		<th>Sun</th>
+		<th>Mon</th>
+		<th>Tue</th>
+		<th>Wed</th>
+		<th>Thu</th>
+		<th>Fri</th>
+		<th>Sat</th>
+	</tr><tr>
+		<td><p></p></td>
+		<td><p>English7<br>C508</p></td>
+		<td><p>ソフ工<br>R103</p></td>
+		<td><p></p></td>
+		<td><p></p></td>
+		<td><p></p></td>
+		<td><p></p></td>
+	</tr><tr>
+		<td><p></p></td>
+		<td><p></p></td>
+		<td><p>DB<br>C109</p></td>
+		<td><p>デジ信<br>C202</p></td>
+		<td><p>プロ論<br>C202</p></td>
+		<td><p></p></td>
+		<td><p></p></td>
+	</tr><tr>
+		<td><p></p></td>
+		<td><p>NetWork<br>R103</p></td>
+		<td><p>English8<br>C504</p></td>
+		<td><p>実験<br></p></td>
+		<td><p></p></td>
+		<td><p></p></td>
+		<td><p></p></td>
+	</tr><tr>
+		<td><p></p></td>
+		<td><p>確率統計<br>C306</p></td>
+		<td><p>計算機構成論<br></p></td>
+		<td><p>実験<br></p></td>
+		<td><p></p></td>
+		<td><p>哲学<br>C202</p></td>
+		<td><p></p></td>
+	</tr><tr>
+		<td><p></p></td>
+		<td><p>情報技術実践<br>C605</p></td>
+		<td><p></p></td>
+		<td><p></p></td>
+		<td><p></p></td>
+		<td><p></p></td>
+		<td><p></p></td>
+	</tr><tr>
+		<td><p></p></td>
+		<td><p>情報技術実践<br>C605</p></td>
+		<td><p></p></td>
+		<td><p></p></td>
+		<td><p></p></td>
+		<td><p></p></td>
+		<td><p></p></td>
+	</tr><tr>
+		<td>yukicoder</td>
+		<td></td>
+		<td></td>
+		<td>RiPPro</td>
+		<td>yukicoder</td>
+		<td>Ri-one</td>
+		<td>AtCoder</td>
+	</tr>
+</table>
 
 <br>
 <a class="link" href="http://ascii.jp/elem/000/000/462/462099/index-3.html">参考url</a>

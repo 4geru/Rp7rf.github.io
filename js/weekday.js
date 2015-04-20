@@ -1,6 +1,7 @@
-$("td").mouseover(function(){
-	console.log("helo");
-    $("td:nth-child("+($("td").index(this)%$("th").size()+1)+")").addClass("hover");
-}).mouseout(function(){
-    $("td:nth-child("+($("td").index(this)%$("th").size()+1)+")").removeClass("hover");
-});
+$(function(){
+	$("#week td").mouseover(function(){
+		$("#week td:nth-child("+($("#week td").index(this)%$("th").size()+1)+")").addClass("hover");
+	}).mouseout(function(){
+		$("#week td:nth-child("+($("#week td").index(this)%$("th").size()+1)+")").removeClass("hover");
+	})
+})
