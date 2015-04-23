@@ -1,0 +1,20 @@
+#main table {
+    *border-collapse: collapse; /* IE7 and lower */
+    border-spacing: 0;
+    width: 100%;
+    table-layout: fixed;
+}
+
+#main td{
+	font-size:normal;
+	position:center;
+	height:40px;
+	border: 1px #222222 solid;
+	border-style : dotted none none none;
+}
+
+
+#main td:first-child{
+	font-size:large;
+	color:#000080;
+}
