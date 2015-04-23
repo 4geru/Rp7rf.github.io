@@ -14,7 +14,6 @@
 	height:50px;
 }
 #main td{
-	padding:5px;
 	font-size:normal;
 	position:center;
 	height:60px;
@@ -25,6 +24,25 @@
 	font-size:normal;
 	text-align:center;
 	height:60px;
+}
+
+#main td a{
+	padding:3px;
+	color:#000000;
+	font-size:normal;
+	text-align:center;
+	height:60px;
+	text-decoration: none;
+}
+
+#main .hover .contest{
+	padding:3px;
+	color:red;
+	font-size:normal;
+	text-align:center;
+	height:60px;
+	text-decoration: none;
+
 }
 #main .eng {	background: #ff9999;}
 #main .exp {	background: #8e8eff;}
@@ -42,6 +60,9 @@
 }
 .hover{
 	background:#B2D8FF;
+}
+.hover tr:first-child{
+	background:red;
 }
 #main tr:nth-child(2){
 	background:#ffff7f;
