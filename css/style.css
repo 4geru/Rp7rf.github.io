@@ -227,50 +227,6 @@ margin-bottom: 12px;
 margin-bottom: 5px;
 }
 
-/* --- 枠付き文章 --- */
-div.main-waku1 {
-font-size: 80%;
-line-height: 160%;
-letter-spacing: 1px;
-border: 1px solid #ccc;
-padding: 12px 14px;
-margin-left: 5px;
-margin-right: 3px;
-margin-bottom: 14px;
-}
-
-div.main-waku2 {
-font-size: 80%;
-line-height: 160%;
-letter-spacing: 1px;
-border: 1px dotted #aaa;
-padding: 12px 14px;
-margin-left: 5px;
-margin-right: 3px;
-margin-bottom: 14px;
-}
-
-div.main-waku3 {
-font-size: 80%;
-line-height: 160%;
-letter-spacing: 1px;
-border: 3px double #ccc;
-padding: 12px 14px;
-margin-left: 8px;
-margin-right: 5px;
-margin-bottom: 14px;
-}
-
-div.main-waku4 {
-font-size: 80%;
-line-height: 160%;
-letter-spacing: 1px;
-border: 4px dotted #ccc;
-padding: 12px 14px;
-margin-left: 10px;
-margin-right: 7px;
-margin-bottom: 14px;
-}
 
 
 /* --- お知らせ履歴 --- */
