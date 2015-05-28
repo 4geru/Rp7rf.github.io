@@ -8,4 +8,7 @@ $(function(){
 	$('.pager#btn-comp').click(function(){
 		location.href = "http://rp7rf.github.io/compare/compare.html"
 	});
+	$('.pager#btn-memo').click(function(){
+		location.href = "http://rp7rf.github.io/memo/memo.html"
+	});
 });
