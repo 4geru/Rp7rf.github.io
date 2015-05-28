@@ -11,7 +11,4 @@ $(function(){
 	$('.pager#btn-memo').click(function(){
 		location.href = "http://rp7rf.github.io/memo/memo.html"
 	});
-	$('.pager#btn-SIMrit').click(function(){
-		location.href = "http://rp7rf.github.io/SIMrit/index.html"
-	});
 });
