@@ -1,35 +1,15 @@
-<html>
-<head>
+<!DOCTYPE html>
+<meta charset="utf-8">
+<meta name="viewport" content="initial-scale=1.0">
+<title>スマホの上下方向の傾きを取得するサンプル</title>
 
-<script type="text/javascript">
-window.addEventListener("devicemotion", function(event) {
-    //加速度センサの3軸の値
-    var xa = event.acceleration.x;
-    var ya = event.acceleration.y;
-    var za = event.acceleration.z;
-     
-    //重力加速度センサの3軸の値
-    var xg = event.accelerationIncludingGravity.x;
-    var yg = event.accelerationIncludingGravity.y;
-    var zg = event.accelerationIncludingGravity.z;
+<div id="beta"></div>
+<p>0:水平<br>-90または90:垂直
 
-    document.getElementById("xa").text = xa;
-    document.getElementById("ya").text = ya;
-    document.getElementById("za").text = za;
-    document.getElementById("xg").text = xg;
-    document.getElementById("yg").text = yg;
-    document.getElementById("zg").text = zg;
-}, false);
+<script>
+window.addEventListener('deviceorientation', function(event){ //デバイスの傾きや方角の値が変化したときに発火
+  document.getElementById('beta').innerHTML = event.beta; // event.betaで上下方向の傾きの値を取得
+});
+// http://www.antytle.com/js/device-orientation-event
 </script>
-</head>
-<body>
 
-<p id=xa>xa</p>
-<p id=ya>ya</p>
-<p id=za>za</p>
-
-<p id=xg>xg</p>
-<p id=yg>yg</p>
-<p id=zg>zg</p>
-
-</body>
