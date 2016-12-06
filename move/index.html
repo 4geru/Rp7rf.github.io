@@ -10,7 +10,7 @@
 <p>0:水平<br>-90または90:垂直
 
 <script>
-var pow = function(v){return Math.pow(v);}
+var pow = function(v){return Math.pow(v,2);}
 window.addEventListener('deviceorientation', function(event){ 
   document.getElementById('alpha').innerHTML = event.alpha; 
   document.getElementById('beta').innerHTML = event.beta; 
