@@ -1,0 +1,21 @@
+<html>
+<head>
+
+<script type="text/javascript">
+window.addEventListener("devicemotion", function(event) {
+    //加速度センサの3軸の値
+    var xa = event.acceleration.x;
+    var ya = event.acceleration.y;
+    var za = event.acceleration.z;
+     
+    //重力加速度センサの3軸の値
+    var xg = event.accelerationIncludingGravity.x;
+    var yg = event.accelerationIncludingGravity.y;
+    var zg = event.accelerationIncludingGravity.z;
+}, false);
+</script>
+</head>
+<body>
+
+
+</body>
