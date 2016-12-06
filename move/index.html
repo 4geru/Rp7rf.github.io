@@ -12,10 +12,24 @@ window.addEventListener("devicemotion", function(event) {
     var xg = event.accelerationIncludingGravity.x;
     var yg = event.accelerationIncludingGravity.y;
     var zg = event.accelerationIncludingGravity.z;
+
+    document.getElementById("xa").text = xa;
+    document.getElementById("ya").text = ya;
+    document.getElementById("za").text = za;
+    document.getElementById("xg").text = xg;
+    document.getElementById("yg").text = yg;
+    document.getElementById("zg").text = zg;
 }, false);
 </script>
 </head>
 <body>
 
+<p id=xa></p>
+<p id=ya></p>
+<p id=za></p>
+
+<p id=xg></p>
+<p id=yg></p>
+<p id=zg></p>
 
 </body>
