@@ -3,12 +3,16 @@
 <meta name="viewport" content="initial-scale=1.0">
 <title>スマホの上下方向の傾きを取得するサンプル</title>
 
+<div id="alpha"></div>
 <div id="beta"></div>
+<div id="gamma"></div>
 <p>0:水平<br>-90または90:垂直
 
 <script>
 window.addEventListener('deviceorientation', function(event){ //デバイスの傾きや方角の値が変化したときに発火
+  document.getElementById('alpha').innerHTML = event.gamma; 
   document.getElementById('beta').innerHTML = event.beta; // event.betaで上下方向の傾きの値を取得
+  document.getElementById('gamma').innerHTML = event.gamma; 
 });
 // http://www.antytle.com/js/device-orientation-event
 </script>
